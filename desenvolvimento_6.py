@@ -13,7 +13,7 @@ valor_valido = False
 while valor_valido == False:
     nome = str(input('Digite seu nome completo: '))
     ano_nascimento = input('Digite seu ano de nascimento [1922 até 2021: ')
-    ano_atual = 2023
+    ano_atual = 2022
     try:
         if int(ano_nascimento) >= 1922 and int(ano_nascimento) <= 2021:
             idade = ano_atual - int(ano_nascimento)
